@@ -2,22 +2,22 @@
 
 This is a simple console-based **Online Air Ticket Booking System** developed in Java. It allows users to register, login, view available flights, and book tickets. The system also maintains basic user session handling and seat availability tracking.
 
-## 🛠️ Features
+## Features
 
-- 🔐 User registration and login
-- 🧳 Flight management (preloaded flights)
-- 🔎 Search flights by destination
-- 🎟️ Book tickets with seat availability check
-- 👤 View logged-in customer details
-- 🚪 Logout functionality
+- User registration and login
+- Flight management (preloaded flights)
+- Search flights by destination
+- Book tickets with seat availability check
+- View logged-in customer details
+- Logout functionality
 
-## 🧾 Sample Flights Preloaded
+## Sample Flights Preloaded
 
 - `AI101`: New York → London, Seats: 5, Price: $450.00  
 - `BA202`: Paris → Tokyo, Seats: 3, Price: $800.00  
 - `DL303`: Sydney → Dubai, Seats: 4, Price: $620.00  
 
-## 📦 Project Structure
+## Project Structure
 
 All the code is contained within a single `Main` class:
 
@@ -25,7 +25,7 @@ All the code is contained within a single `Main` class:
 - `BookingSystem`: Handles flight listings, bookings, user registration, login/logout
 - `main()`: Runs the interactive console menu for users
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -44,7 +44,7 @@ All the code is contained within a single `Main` class:
    java Main
    ```
 
-## 📸 Screenshots
+## Screenshots
 
 ```
 === Online Air Ticket Booking System ===
@@ -67,21 +67,3 @@ Enter destination to view flights: London
 1. Flight: AI101, From: New York, To: London, Seats: 5, Price: $450.0
 ```
 
-## 📚 Concepts Covered
-
-- Object-Oriented Programming (OOP)
-- Java Collections (`ArrayList`, `HashMap`)
-- Basic authentication logic
-- Console input/output
-- Session-like user handling
-
-## 📈 Future Improvements (Optional Ideas)
-
-- Save user and flight data in files or database
-- Add admin features to add/remove flights
-- Implement booking history
-- Add time and date to flights
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
